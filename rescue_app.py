@@ -3,7 +3,7 @@ from streamlit_geolocation import streamlit_geolocation
 import pandas as pd
 import os
 
-st.set_page_config(page_title="K9 Nexus - Rescate", layout="wide")
+st.set_page_config(page_title="https://rescueapp-ms4hhy9pgff7kvzibnadp8.streamlit.app//?mode=help&tel=04242717334", layout="wide")
 
 DB_FILE = "ubicaciones.csv"
 
