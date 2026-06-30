@@ -47,5 +47,5 @@ st.divider()
 tel = st.text_input("Teléfono de la víctima:")
 if st.button("Generar Enlace"):
     # IMPORTANTE: Reemplaza por la URL real de tu app en Streamlit Cloud
-    base_url = "https://tu-app-k9-nexus.streamlit.app" 
+    base_url = "https://rescueapp-ms4hhy9pgff7kvzibnadp8.streamlit.app" 
     st.code(f"{base_url}/?mode=help&tel={tel}")
