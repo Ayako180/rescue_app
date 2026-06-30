@@ -6,7 +6,7 @@ st.set_page_config(page_title="K9 Nexus - Rescate", layout="wide")
 
 # Detectar la URL base automáticamente
 # Si estás en Streamlit Cloud, esto capturará tu URL pública
-base_url = st.query_params.get("base_url", "http://localhost:8501")
+base_url = st.query_params.get("base_url", "https://rescueapp-ms4hhy9pgff7kvzibnadp8.streamlit.app/")
 
 # --- LÓGICA DE LA VÍCTIMA ---
 if st.query_params.get("mode") == "help":
